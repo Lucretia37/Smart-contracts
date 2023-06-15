@@ -16,10 +16,8 @@ contract IfElse {
          if (_x < 10) {
              return 1;
          }
-         return 2;
-
-         shorthand way to write if / else statement
-         the "?" operator is called the ternary operator
+         // Remove the typo "shorthand way to write if / else statement"
+         // The "?" operator is called the ternary operator
         return _x < 10 ? 1 : 2;
     }
 }
